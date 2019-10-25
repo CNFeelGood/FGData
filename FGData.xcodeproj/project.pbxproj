@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F77007042360391D003BE710 /* FGData.h in Headers */ = {isa = PBXBuildFile; fileRef = F77007022360391D003BE710 /* FGData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */; };
+		F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */; };
+		F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */; };
+		F7F2EBE92361BD84000DB3EA /* NSMutableArray+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBE72361BD84000DB3EA /* NSMutableArray+FGSafe.m */; };
+		F7F2EBEC2361CA2D000DB3EA /* NSArray+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBEA2361CA2D000DB3EA /* NSArray+FGSafe.h */; };
+		F7F2EBED2361CA2D000DB3EA /* NSArray+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBEB2361CA2D000DB3EA /* NSArray+FGSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F77006FF2360391D003BE710 /* FGData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77007022360391D003BE710 /* FGData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGData.h; sourceTree = "<group>"; };
 		F77007032360391D003BE710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FGSafe.h"; sourceTree = "<group>"; };
+		F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FGSafe.m"; sourceTree = "<group>"; };
+		F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FGSafe.h"; sourceTree = "<group>"; };
+		F7F2EBE72361BD84000DB3EA /* NSMutableArray+FGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FGSafe.m"; sourceTree = "<group>"; };
+		F7F2EBEA2361CA2D000DB3EA /* NSArray+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+FGSafe.h"; sourceTree = "<group>"; };
+		F7F2EBEB2361CA2D000DB3EA /* NSArray+FGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FGSafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +59,23 @@
 			isa = PBXGroup;
 			children = (
 				F77007022360391D003BE710 /* FGData.h */,
+				F7F2EBE12361B475000DB3EA /* Safe */,
 				F77007032360391D003BE710 /* Info.plist */,
 			);
 			path = FGData;
+			sourceTree = "<group>";
+		};
+		F7F2EBE12361B475000DB3EA /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */,
+				F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */,
+				F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */,
+				F7F2EBE72361BD84000DB3EA /* NSMutableArray+FGSafe.m */,
+				F7F2EBEA2361CA2D000DB3EA /* NSArray+FGSafe.h */,
+				F7F2EBEB2361CA2D000DB3EA /* NSArray+FGSafe.m */,
+			);
+			path = Safe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +85,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */,
+				F7F2EBEC2361CA2D000DB3EA /* NSArray+FGSafe.h in Headers */,
+				F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */,
 				F77007042360391D003BE710 /* FGData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F2EBED2361CA2D000DB3EA /* NSArray+FGSafe.m in Sources */,
+				F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */,
+				F7F2EBE92361BD84000DB3EA /* NSMutableArray+FGSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -244,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
