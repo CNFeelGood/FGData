@@ -11,15 +11,17 @@
 @implementation NSMutableDictionary (FGSafe)
 
 - (BOOL)fg_setObject:(id)anObject forKey:(id<NSCopying>)aKey{
-    BOOL canSet = anObject && aKey;
-    if (canSet) {
+    BOOL canSet = NO;
+    if (anObject && aKey) {
+        canSet = YES;
         [self setObject:anObject forKey:aKey];
     }
     return canSet;
 }
 - (BOOL)fg_removeObjectForKey:(id)aKey{
-    BOOL canRemove = aKey;
-    if (canRemove) {
+    BOOL canRemove = NO;
+    if (aKey) {
+        canRemove = YES;
         [self removeObjectForKey:aKey];
     }
     return canRemove;

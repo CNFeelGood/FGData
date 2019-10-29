@@ -11,22 +11,25 @@
 @implementation NSMutableArray (FGSafe)
 
 - (BOOL)fg_addObject:(id)anObject{
-    BOOL canAdd = anObject;
-    if (canAdd) {
+    BOOL canAdd = NO;
+    if (anObject) {
+        canAdd = YES;
         [self addObject:anObject];
     }
     return canAdd;
 }
 - (BOOL)fg_removeObjectAtIndex:(NSUInteger)index{
-    BOOL canRemove = self.count > index;
-    if (canRemove) {
+    BOOL canRemove = NO;
+    if (self.count > index) {
+        canRemove = YES;
         [self removeObjectAtIndex:index];
     }
     return canRemove;
 }
 - (BOOL)fg_insertObject:(id)anObject atIndex:(NSUInteger)index{
-    BOOL canInsert = anObject;
-    if (canInsert) {
+    BOOL canInsert = NO;
+    if (anObject) {
+        canInsert = YES;
         [self insertObject:anObject atIndex:index];
     }
     return canInsert;
