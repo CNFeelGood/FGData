@@ -6,9 +6,9 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "FGNet.h"
+#import "FGNetS.h"
 
-@implementation FGNet
+@implementation FGNetS
 
 
 

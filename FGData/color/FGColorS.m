@@ -6,10 +6,10 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "FGColor.h"
+#import "FGColorS.h"
 #import <objc/runtime.h>
 
-@implementation FGColor
+@implementation FGColorS
 
 - (UIColor *)fg_Alpha:(CGFloat)alpha{
     return [self colorWithAlphaComponent:alpha];
@@ -61,7 +61,7 @@
 id colorWithSelector(id self,SEL selector){
     NSString * originString = NSStringFromSelector(selector);
     NSString * targetString = [originString substringFromIndex:3];
-    return [FGColor fg_Hex:targetString];
+    return [FGColorS fg_Hex:targetString];
 }
 
 @end

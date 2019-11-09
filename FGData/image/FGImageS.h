@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  请勿直接调用本类，使用子类继承后，在子类声明返回UIImage的+方法，方法名称为图片名，即可返回对应的图片
  */
-@interface FGImage : UIImage
+@interface FGImageS : UIImage
 
 @end
 

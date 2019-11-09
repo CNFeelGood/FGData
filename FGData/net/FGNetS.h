@@ -29,7 +29,7 @@ typedef void(^FGNetResult)(FGNetSucc, FGNetFail);
 /**
  请不要直接调用本类,用子类继承后，将方法完善后再调用
  */
-@interface FGNet : NSObject
+@interface FGNetS : NSObject
 
 #pragma mark - 子类去注释
 //@property (nonatomic,strong) AFHTTPSessionManager *manager;

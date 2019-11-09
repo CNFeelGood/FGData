@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FGColor : UIColor
+@interface FGColorS : UIColor
 
 - (UIColor *)fg_Alpha:(CGFloat)alpha;
 + (UIColor *)fg_R:(NSUInteger)r G:(NSUInteger)g B:(NSUInteger)b;

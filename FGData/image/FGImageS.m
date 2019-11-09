@@ -6,10 +6,10 @@
 //  Copyright © 2019 hh. All rights reserved.
 //
 
-#import "FGImage.h"
+#import "FGImageS.h"
 #import <objc/runtime.h>
 
-@implementation FGImage
+@implementation FGImageS
 
 + (BOOL)resolveClassMethod:(SEL)sel{
     Class metaClass = objc_getMetaClass(class_getName(self));

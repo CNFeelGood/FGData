@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F747B9EB2367F5BE002ADC62 /* FGNet.h in Headers */ = {isa = PBXBuildFile; fileRef = F747B9E92367F5BE002ADC62 /* FGNet.h */; };
-		F747B9EC2367F5BE002ADC62 /* FGNet.m in Sources */ = {isa = PBXBuildFile; fileRef = F747B9EA2367F5BE002ADC62 /* FGNet.m */; };
+		F747B9EB2367F5BE002ADC62 /* FGNetS.h in Headers */ = {isa = PBXBuildFile; fileRef = F747B9E92367F5BE002ADC62 /* FGNetS.h */; };
+		F747B9EC2367F5BE002ADC62 /* FGNetS.m in Sources */ = {isa = PBXBuildFile; fileRef = F747B9EA2367F5BE002ADC62 /* FGNetS.m */; };
 		F76ED8182371891F0056A721 /* FGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F76ED8162371891E0056A721 /* FGObject.h */; };
 		F76ED8192371891F0056A721 /* FGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F76ED8172371891E0056A721 /* FGObject.m */; };
 		F77007042360391D003BE710 /* FGData.h in Headers */ = {isa = PBXBuildFile; fileRef = F77007022360391D003BE710 /* FGData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226242374284E00BB04B8 /* FGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226222374284E00BB04B8 /* FGSize.h */; };
 		F77226252374284E00BB04B8 /* FGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226232374284E00BB04B8 /* FGSize.m */; };
-		F77226292376749800BB04B8 /* FGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226272376749800BB04B8 /* FGColor.h */; };
-		F772262A2376749800BB04B8 /* FGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226282376749800BB04B8 /* FGColor.m */; };
-		F772262E237681E500BB04B8 /* FGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F772262C237681E500BB04B8 /* FGImage.h */; };
-		F772262F237681E500BB04B8 /* FGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F772262D237681E500BB04B8 /* FGImage.m */; };
+		F77226292376749800BB04B8 /* FGColorS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226272376749800BB04B8 /* FGColorS.h */; };
+		F772262A2376749800BB04B8 /* FGColorS.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226282376749800BB04B8 /* FGColorS.m */; };
+		F772262E237681E500BB04B8 /* FGImageS.h in Headers */ = {isa = PBXBuildFile; fileRef = F772262C237681E500BB04B8 /* FGImageS.h */; };
+		F772262F237681E500BB04B8 /* FGImageS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772262D237681E500BB04B8 /* FGImageS.m */; };
 		F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */; };
 		F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,8 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F747B9E92367F5BE002ADC62 /* FGNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGNet.h; sourceTree = "<group>"; };
-		F747B9EA2367F5BE002ADC62 /* FGNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGNet.m; sourceTree = "<group>"; };
+		F747B9E92367F5BE002ADC62 /* FGNetS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGNetS.h; sourceTree = "<group>"; };
+		F747B9EA2367F5BE002ADC62 /* FGNetS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGNetS.m; sourceTree = "<group>"; };
 		F76ED8162371891E0056A721 /* FGObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGObject.h; sourceTree = "<group>"; };
 		F76ED8172371891E0056A721 /* FGObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGObject.m; sourceTree = "<group>"; };
 		F77006FF2360391D003BE710 /* FGData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FGData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,10 +36,10 @@
 		F77007032360391D003BE710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F77226222374284E00BB04B8 /* FGSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGSize.h; sourceTree = "<group>"; };
 		F77226232374284E00BB04B8 /* FGSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGSize.m; sourceTree = "<group>"; };
-		F77226272376749800BB04B8 /* FGColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGColor.h; sourceTree = "<group>"; };
-		F77226282376749800BB04B8 /* FGColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGColor.m; sourceTree = "<group>"; };
-		F772262C237681E500BB04B8 /* FGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImage.h; sourceTree = "<group>"; };
-		F772262D237681E500BB04B8 /* FGImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImage.m; sourceTree = "<group>"; };
+		F77226272376749800BB04B8 /* FGColorS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGColorS.h; sourceTree = "<group>"; };
+		F77226282376749800BB04B8 /* FGColorS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGColorS.m; sourceTree = "<group>"; };
+		F772262C237681E500BB04B8 /* FGImageS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGImageS.h; sourceTree = "<group>"; };
+		F772262D237681E500BB04B8 /* FGImageS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImageS.m; sourceTree = "<group>"; };
 		F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FGSafe.h"; sourceTree = "<group>"; };
 		F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FGSafe.m"; sourceTree = "<group>"; };
 		F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FGSafe.h"; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 		F76AAD422362E7F1006A0908 /* net */ = {
 			isa = PBXGroup;
 			children = (
-				F747B9E92367F5BE002ADC62 /* FGNet.h */,
-				F747B9EA2367F5BE002ADC62 /* FGNet.m */,
+				F747B9E92367F5BE002ADC62 /* FGNetS.h */,
+				F747B9EA2367F5BE002ADC62 /* FGNetS.m */,
 			);
 			path = net;
 			sourceTree = "<group>";
@@ -110,8 +110,8 @@
 		F7722626237673DD00BB04B8 /* color */ = {
 			isa = PBXGroup;
 			children = (
-				F77226272376749800BB04B8 /* FGColor.h */,
-				F77226282376749800BB04B8 /* FGColor.m */,
+				F77226272376749800BB04B8 /* FGColorS.h */,
+				F77226282376749800BB04B8 /* FGColorS.m */,
 			);
 			path = color;
 			sourceTree = "<group>";
@@ -119,8 +119,8 @@
 		F772262B2376817600BB04B8 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				F772262C237681E500BB04B8 /* FGImage.h */,
-				F772262D237681E500BB04B8 /* FGImage.m */,
+				F772262C237681E500BB04B8 /* FGImageS.h */,
+				F772262D237681E500BB04B8 /* FGImageS.m */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -150,12 +150,12 @@
 				F77226242374284E00BB04B8 /* FGSize.h in Headers */,
 				F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */,
 				F7F2EBEC2361CA2D000DB3EA /* NSArray+FGSafe.h in Headers */,
-				F77226292376749800BB04B8 /* FGColor.h in Headers */,
-				F747B9EB2367F5BE002ADC62 /* FGNet.h in Headers */,
+				F77226292376749800BB04B8 /* FGColorS.h in Headers */,
+				F747B9EB2367F5BE002ADC62 /* FGNetS.h in Headers */,
 				F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */,
 				F76ED8182371891F0056A721 /* FGObject.h in Headers */,
 				F77007042360391D003BE710 /* FGData.h in Headers */,
-				F772262E237681E500BB04B8 /* FGImage.h in Headers */,
+				F772262E237681E500BB04B8 /* FGImageS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,12 +228,12 @@
 			files = (
 				F7F2EBED2361CA2D000DB3EA /* NSArray+FGSafe.m in Sources */,
 				F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */,
-				F747B9EC2367F5BE002ADC62 /* FGNet.m in Sources */,
+				F747B9EC2367F5BE002ADC62 /* FGNetS.m in Sources */,
 				F7F2EBE92361BD84000DB3EA /* NSMutableArray+FGSafe.m in Sources */,
-				F772262F237681E500BB04B8 /* FGImage.m in Sources */,
+				F772262F237681E500BB04B8 /* FGImageS.m in Sources */,
 				F76ED8192371891F0056A721 /* FGObject.m in Sources */,
 				F77226252374284E00BB04B8 /* FGSize.m in Sources */,
-				F772262A2376749800BB04B8 /* FGColor.m in Sources */,
+				F772262A2376749800BB04B8 /* FGColorS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
