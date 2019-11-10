@@ -20,6 +20,8 @@
 		F772262F237681E500BB04B8 /* FGImageS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772262D237681E500BB04B8 /* FGImageS.m */; };
 		F77226322376B3D300BB04B8 /* UIImage+Others.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226302376B3D300BB04B8 /* UIImage+Others.h */; };
 		F77226332376B3D300BB04B8 /* UIImage+Others.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226312376B3D300BB04B8 /* UIImage+Others.m */; };
+		F77226432377C36200BB04B8 /* UIImage+FGCompress.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226412377C36200BB04B8 /* UIImage+FGCompress.h */; };
+		F77226442377C36200BB04B8 /* UIImage+FGCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226422377C36200BB04B8 /* UIImage+FGCompress.m */; };
 		F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */; };
 		F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +46,8 @@
 		F772262D237681E500BB04B8 /* FGImageS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGImageS.m; sourceTree = "<group>"; };
 		F77226302376B3D300BB04B8 /* UIImage+Others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Others.h"; sourceTree = "<group>"; };
 		F77226312376B3D300BB04B8 /* UIImage+Others.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Others.m"; sourceTree = "<group>"; };
+		F77226412377C36200BB04B8 /* UIImage+FGCompress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FGCompress.h"; sourceTree = "<group>"; };
+		F77226422377C36200BB04B8 /* UIImage+FGCompress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FGCompress.m"; sourceTree = "<group>"; };
 		F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FGSafe.h"; sourceTree = "<group>"; };
 		F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FGSafe.m"; sourceTree = "<group>"; };
 		F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FGSafe.h"; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				F772262D237681E500BB04B8 /* FGImageS.m */,
 				F77226302376B3D300BB04B8 /* UIImage+Others.h */,
 				F77226312376B3D300BB04B8 /* UIImage+Others.m */,
+				F77226412377C36200BB04B8 /* UIImage+FGCompress.h */,
+				F77226422377C36200BB04B8 /* UIImage+FGCompress.m */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			files = (
 				F77226242374284E00BB04B8 /* FGSize.h in Headers */,
 				F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */,
+				F77226432377C36200BB04B8 /* UIImage+FGCompress.h in Headers */,
 				F7F2EBEC2361CA2D000DB3EA /* NSArray+FGSafe.h in Headers */,
 				F77226292376749800BB04B8 /* FGColorS.h in Headers */,
 				F747B9EB2367F5BE002ADC62 /* FGNetS.h in Headers */,
@@ -239,6 +246,7 @@
 				F747B9EC2367F5BE002ADC62 /* FGNetS.m in Sources */,
 				F7F2EBE92361BD84000DB3EA /* NSMutableArray+FGSafe.m in Sources */,
 				F772262F237681E500BB04B8 /* FGImageS.m in Sources */,
+				F77226442377C36200BB04B8 /* UIImage+FGCompress.m in Sources */,
 				F76ED8192371891F0056A721 /* FGObject.m in Sources */,
 				F77226252374284E00BB04B8 /* FGSize.m in Sources */,
 				F772262A2376749800BB04B8 /* FGColorS.m in Sources */,
