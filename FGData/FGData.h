@@ -18,5 +18,10 @@ FOUNDATION_EXPORT const unsigned char FGDataVersionString[];
 #import <FGData/NSMutableDictionary+FGSafe.h>
 #import <FGData/NSArray+FGSafe.h>
 #import <FGData/NSMutableArray+FGSafe.h>
-
-
+#import <FGData/FGSize.h>
+#import <FGData/UIImage+FGCompress.h>
+#import <FGData/FGColorS.h>
+#import <FGData/FGNetS.h>
+#import <FGData/UIImage+Others.h>
+#import <FGData/FGObject.h>
+#import <FGData/FGImageS.h>
