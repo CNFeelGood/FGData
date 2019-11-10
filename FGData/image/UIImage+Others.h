@@ -14,7 +14,7 @@
 
 +(UIImage*)convertViewToImage:(UIView*)view;
 
-+ (void) GetImageViewWithUrl:(NSString *)ImageUrl BlockSuccess:(void(^)(UIImage *image))success;
+//+ (void) GetImageViewWithUrl:(NSString *)ImageUrl BlockSuccess:(void(^)(UIImage *image))success;
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 
 
