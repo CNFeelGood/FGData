@@ -32,6 +32,8 @@
 		F772268823794CBD00BB04B8 /* FGListModelS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268623794CBD00BB04B8 /* FGListModelS.m */; };
 		F772268B2379580500BB04B8 /* FGPageApiS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226892379580500BB04B8 /* FGPageApiS.h */; };
 		F772268C2379580500BB04B8 /* FGPageApiS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268A2379580500BB04B8 /* FGPageApiS.m */; };
+		F7722699237980F000BB04B8 /* NSString+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7722697237980F000BB04B8 /* NSString+Calculate.m */; };
+		F772269A237980F000BB04B8 /* NSString+Calculate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7722698237980F000BB04B8 /* NSString+Calculate.h */; };
 		F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */; };
 		F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +70,8 @@
 		F772268623794CBD00BB04B8 /* FGListModelS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGListModelS.m; sourceTree = "<group>"; };
 		F77226892379580500BB04B8 /* FGPageApiS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGPageApiS.h; sourceTree = "<group>"; };
 		F772268A2379580500BB04B8 /* FGPageApiS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGPageApiS.m; sourceTree = "<group>"; };
+		F7722697237980F000BB04B8 /* NSString+Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Calculate.m"; sourceTree = "<group>"; };
+		F7722698237980F000BB04B8 /* NSString+Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Calculate.h"; sourceTree = "<group>"; };
 		F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FGSafe.h"; sourceTree = "<group>"; };
 		F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FGSafe.m"; sourceTree = "<group>"; };
 		F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FGSafe.h"; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 				F77226212374282300BB04B8 /* size */,
 				F7722626237673DD00BB04B8 /* color */,
 				F772262B2376817600BB04B8 /* image */,
+				F77226962379805D00BB04B8 /* string */,
 				F77007032360391D003BE710 /* Info.plist */,
 			);
 			path = FGData;
@@ -167,6 +172,15 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		F77226962379805D00BB04B8 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				F7722698237980F000BB04B8 /* NSString+Calculate.h */,
+				F7722697237980F000BB04B8 /* NSString+Calculate.m */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
 		F7F2EBE12361B475000DB3EA /* safe */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +205,7 @@
 			files = (
 				F772267F23791A7200BB04B8 /* FGModel.h in Headers */,
 				F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */,
+				F772269A237980F000BB04B8 /* NSString+Calculate.h in Headers */,
 				F772268323794BFE00BB04B8 /* FGCodeModelS.h in Headers */,
 				F7F2EBEC2361CA2D000DB3EA /* NSArray+FGSafe.h in Headers */,
 				F772267B2379197D00BB04B8 /* FGNetApiS.h in Headers */,
@@ -275,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7722699237980F000BB04B8 /* NSString+Calculate.m in Sources */,
 				F772268823794CBD00BB04B8 /* FGListModelS.m in Sources */,
 				F7F2EBED2361CA2D000DB3EA /* NSArray+FGSafe.m in Sources */,
 				F77226332376B3D300BB04B8 /* UIImage+Others.m in Sources */,
