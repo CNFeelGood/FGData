@@ -12,6 +12,20 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FGObject : NSObject
 
+- (NSString *)safeString;
+
+- (NSInteger)integerValue;
+
+- (NSString *)urlString;
+
+@end
+
+@interface FGUrlPrefix : NSObject
+
++ (instancetype)sharedInstance;
+
+@property (nonatomic,copy) NSString * prefix;
+
 @end
 
 NS_ASSUME_NONNULL_END
