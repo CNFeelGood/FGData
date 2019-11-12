@@ -22,18 +22,18 @@
 		F77226332376B3D300BB04B8 /* UIImage+Others.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226312376B3D300BB04B8 /* UIImage+Others.m */; };
 		F77226432377C36200BB04B8 /* UIImage+FGCompress.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226412377C36200BB04B8 /* UIImage+FGCompress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F77226442377C36200BB04B8 /* UIImage+FGCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = F77226422377C36200BB04B8 /* UIImage+FGCompress.m */; };
-		F772267B2379197D00BB04B8 /* FGNetApiS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226792379197D00BB04B8 /* FGNetApiS.h */; };
+		F772267B2379197D00BB04B8 /* FGNetApiS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226792379197D00BB04B8 /* FGNetApiS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772267C2379197D00BB04B8 /* FGNetApiS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772267A2379197D00BB04B8 /* FGNetApiS.m */; };
-		F772267F23791A7200BB04B8 /* FGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F772267D23791A7200BB04B8 /* FGModel.h */; };
+		F772267F23791A7200BB04B8 /* FGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F772267D23791A7200BB04B8 /* FGModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772268023791A7200BB04B8 /* FGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F772267E23791A7200BB04B8 /* FGModel.m */; };
-		F772268323794BFE00BB04B8 /* FGCodeModelS.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268123794BFE00BB04B8 /* FGCodeModelS.h */; };
+		F772268323794BFE00BB04B8 /* FGCodeModelS.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268123794BFE00BB04B8 /* FGCodeModelS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772268423794BFE00BB04B8 /* FGCodeModelS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268223794BFE00BB04B8 /* FGCodeModelS.m */; };
-		F772268723794CBD00BB04B8 /* FGListModelS.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268523794CBD00BB04B8 /* FGListModelS.h */; };
+		F772268723794CBD00BB04B8 /* FGListModelS.h in Headers */ = {isa = PBXBuildFile; fileRef = F772268523794CBD00BB04B8 /* FGListModelS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772268823794CBD00BB04B8 /* FGListModelS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268623794CBD00BB04B8 /* FGListModelS.m */; };
-		F772268B2379580500BB04B8 /* FGPageApiS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226892379580500BB04B8 /* FGPageApiS.h */; };
+		F772268B2379580500BB04B8 /* FGPageApiS.h in Headers */ = {isa = PBXBuildFile; fileRef = F77226892379580500BB04B8 /* FGPageApiS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772268C2379580500BB04B8 /* FGPageApiS.m in Sources */ = {isa = PBXBuildFile; fileRef = F772268A2379580500BB04B8 /* FGPageApiS.m */; };
 		F7722699237980F000BB04B8 /* NSString+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7722697237980F000BB04B8 /* NSString+Calculate.m */; };
-		F772269A237980F000BB04B8 /* NSString+Calculate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7722698237980F000BB04B8 /* NSString+Calculate.h */; };
+		F772269A237980F000BB04B8 /* NSString+Calculate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7722698237980F000BB04B8 /* NSString+Calculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE22361B540000DB3EA /* NSMutableDictionary+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7F2EBE52361B540000DB3EA /* NSMutableDictionary+FGSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F2EBE32361B540000DB3EA /* NSMutableDictionary+FGSafe.m */; };
 		F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F2EBE62361BD84000DB3EA /* NSMutableArray+FGSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -203,22 +203,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F772267F23791A7200BB04B8 /* FGModel.h in Headers */,
 				F7F2EBE42361B540000DB3EA /* NSMutableDictionary+FGSafe.h in Headers */,
-				F772269A237980F000BB04B8 /* NSString+Calculate.h in Headers */,
-				F772268323794BFE00BB04B8 /* FGCodeModelS.h in Headers */,
 				F7F2EBEC2361CA2D000DB3EA /* NSArray+FGSafe.h in Headers */,
-				F772267B2379197D00BB04B8 /* FGNetApiS.h in Headers */,
-				F772268723794CBD00BB04B8 /* FGListModelS.h in Headers */,
 				F77226242374284E00BB04B8 /* FGSize.h in Headers */,
 				F77226432377C36200BB04B8 /* UIImage+FGCompress.h in Headers */,
 				F77226292376749800BB04B8 /* FGColorS.h in Headers */,
-				F772268B2379580500BB04B8 /* FGPageApiS.h in Headers */,
+				F772267F23791A7200BB04B8 /* FGModel.h in Headers */,
 				F747B9EB2367F5BE002ADC62 /* FGNetS.h in Headers */,
+				F772269A237980F000BB04B8 /* NSString+Calculate.h in Headers */,
 				F7F2EBE82361BD84000DB3EA /* NSMutableArray+FGSafe.h in Headers */,
+				F772268323794BFE00BB04B8 /* FGCodeModelS.h in Headers */,
 				F77226322376B3D300BB04B8 /* UIImage+Others.h in Headers */,
+				F772267B2379197D00BB04B8 /* FGNetApiS.h in Headers */,
 				F76ED8182371891F0056A721 /* FGObject.h in Headers */,
+				F772268723794CBD00BB04B8 /* FGListModelS.h in Headers */,
 				F77007042360391D003BE710 /* FGData.h in Headers */,
+				F772268B2379580500BB04B8 /* FGPageApiS.h in Headers */,
 				F772262E237681E500BB04B8 /* FGImageS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

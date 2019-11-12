@@ -15,6 +15,9 @@ FOUNDATION_EXPORT double FGDataVersionNumber;
 FOUNDATION_EXPORT const unsigned char FGDataVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FGData/PublicHeader.h>
+
+
+
 #import <FGData/NSMutableDictionary+FGSafe.h>
 #import <FGData/NSArray+FGSafe.h>
 #import <FGData/NSMutableArray+FGSafe.h>
@@ -25,3 +28,9 @@ FOUNDATION_EXPORT const unsigned char FGDataVersionString[];
 #import <FGData/UIImage+Others.h>
 #import <FGData/FGObject.h>
 #import <FGData/FGImageS.h>
+#import <FGData/FGModel.h>
+#import <FGData/NSString+Calculate.h>
+#import <FGData/FGCodeModelS.h>
+#import <FGData/FGNetApiS.h>
+#import <FGData/FGListModelS.h>
+#import <FGData/FGPageApiS.h>
