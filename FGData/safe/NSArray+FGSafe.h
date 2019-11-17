@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (id)fg_objectAtIndex:(NSUInteger)index;
 
++ (NSArray *)fg_arrayWithCount:(NSInteger)count;
+
 @end
 
 NS_ASSUME_NONNULL_END

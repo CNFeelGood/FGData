@@ -17,4 +17,12 @@
     return nil;
 }
 
++ (NSArray *)fg_arrayWithCount:(NSInteger)count{
+    NSMutableArray * muts = [[NSMutableArray alloc] initWithCapacity:count];
+    for (NSInteger i = 0; i < count; i ++) {
+        [muts addObject:@""];
+    }
+    return muts;
+}
+
 @end
